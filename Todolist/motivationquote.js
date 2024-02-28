@@ -1,21 +1,21 @@
-let password = "Hero123";
-let attemptCount = 0;
+// let password = "Hero123";
+// let attemptCount = 0;
 
-while (true) {
-    let inputPassword = prompt("Enter password to enter Samir's TodoList");
-    if (inputPassword === password) {
-        alert("Welcome to Samir's TodoList!");
-        break; 
-    } else {
+// while (true) {
+//     let inputPassword = prompt("Enter password to enter Samir's TodoList");
+//     if (inputPassword === password) {
+//         alert("Welcome to Samir's TodoList!");
+//         break; 
+//     } else {
      
-        attemptCount++;
-        if (attemptCount >= Infinity) {
-            alert("Too many incorrect attempts. System locked.");
-            break; 
-        }
-        alert("Wrong password. Please try again.");
-    }
-}
+//         attemptCount++;
+//         if (attemptCount >= Infinity) {
+//             alert("Too many incorrect attempts. System locked.");
+//             break; 
+//         }
+//         alert("Wrong password. Please try again.");
+//     }
+// }
 
 function myFunction(){
    Addsector.style.display = 'block'
