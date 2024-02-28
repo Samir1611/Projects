@@ -1,0 +1,74 @@
+@media (max-width: 767px){
+    /* Apply specific styles when screen width is 640px or smaller */
+      /*::placeholder is a pseudo-element selector targeting the placeholder text of the element.*/
+    .responsive-placeholder::placeholder {
+      /* Use word-wrap to allow the placeholder to break into multiple lines */
+      white-space: normal;
+      word-wrap: break-word;
+    }
+  }
+  @media (min-width: 767px){
+
+    .responsive-placeholder::placeholder {
+      white-space: normal;
+      word-wrap: break-word;
+    }
+  }
+  @media (min-width: 768px) {
+    /* Apply specific styles when screen width is 768px or larger (desktop screens) */
+    .container {
+      max-width: 960px; /* Adjust this value as needed */
+      margin: 0 auto; /* Center the container on larger screens */
+    }
+  
+    .courage,
+    .spongebob,
+    .anya { 
+      width: 70%; 
+      height: 20%;
+      aspect-ratio:9/4 ;
+
+      background: hsla(231, 82%, 6%, 1);
+
+      background: linear-gradient(90deg, hsla(231, 82%, 6%, 1) 0%, hsla(347, 52%, 36%, 1) 100%);
+      
+      background: -moz-linear-gradient(90deg, hsla(231, 82%, 6%, 1) 0%, hsla(347, 52%, 36%, 1) 100%);
+      
+      background: -webkit-linear-gradient(90deg, hsla(231, 82%, 6%, 1) 0%, hsla(347, 52%, 36%, 1) 100%);
+      
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#03071E", endColorstr="#8B2C40", GradientType=1 );
+
+    }
+  
+    .input-respo {
+      margin-top: 1rem; 
+    }
+   
+  }
+  .gradientcolor{
+    background: hsla(231, 82%, 6%, 1);
+
+    background: linear-gradient(90deg, hsla(231, 82%, 6%, 1) 0%, hsla(347, 52%, 36%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(231, 82%, 6%, 1) 0%, hsla(347, 52%, 36%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(231, 82%, 6%, 1) 0%, hsla(347, 52%, 36%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#03071E", endColorstr="#8B2C40", GradientType=1 );
+    
+  }
+
+  
+  @media (max-width: 767px){
+    .inputer{
+      width: 200px;
+      
+    }
+  }
+  #cards,
+  #Addlister {
+    transition: opacity 0.5s;
+  }
+  .hidden {
+    display: none;
+  }
