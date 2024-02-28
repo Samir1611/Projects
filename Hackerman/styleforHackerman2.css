@@ -1,0 +1,76 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Source+Code+Pro:ital,wght@0,800;1,800&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: green;
+  font-family: "Source Code Pro", monospace;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+ @media only screen and (min-width: 600px) {
+  .hackerImage {
+    padding: 100px;
+  } 
+}
+
+.hackerImage {
+  height: 720px; 
+  max-width: 1280px; 
+  background-image: url("./ComponentH.png");
+  opacity: 0.6;
+}
+
+#addText {
+  font-size: 25px;
+  color: red;
+  margin-top: 32rem;
+  margin-left: 16rem;
+}
+
+.leftContainer,
+.rightContainer,
+#UserInteract {
+  border: 3px solid rgb(247, 247, 247);
+  height: 500px;
+  max-width: 1280; 
+  margin-top: 6.8rem;
+  color: rgb(0, 110, 0);
+  font-size: 25px;
+  padding: 1px 20px 20px 10px;
+  overflow: hidden;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.UserInteract1 {
+  height: 450px;
+  border: 3px solid rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 80%;
+  font-size: 25px;
+  margin: auto;
+  padding: 10px 20px;
+  margin-top: 9rem;
+  font-family: "Source Code Pro", monospace;
+}
+
+#UserInteract {
+  color: rgba(20, 255, 0, 1);
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 1px #016301, 0 0 2px #016301, 0 0 20px #019701;
+  }
+}
